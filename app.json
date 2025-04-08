@@ -4,11 +4,11 @@
     "slug": "serviceDeskappV2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/vra_2.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,16 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jnnquarcoo.serviceDeskappV2"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+
+    "extra": {
+      "eas": {
+        "projectId": "fca96c31-bac4-4b44-8293-488f1ce2602c"
+      }
     }
   }
 }
